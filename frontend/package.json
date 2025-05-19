@@ -1,5 +1,5 @@
 {
-  "name": "cloudflare_temp_email",
+  "name": "cfemail",
   "version": "0.10.0",
   "private": true,
   "type": "module",
