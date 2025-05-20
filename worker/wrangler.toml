@@ -9,10 +9,10 @@ routes = [
 ]
 
 # 如果你想要部署带有前端资源的 worker, 你需要添加 assets 配置
-[assets]
-directory = "../frontend/dist/"
-binding = "ASSETS"
-run_worker_first = true
+# [assets]
+# directory = "../frontend/dist/"
+# binding = "ASSETS"
+# run_worker_first = true
 
 # 如果你想要使用定时任务清理邮件，取消下面的注释，并修改 cron 表达式
 # [triggers]
@@ -27,7 +27,7 @@ run_worker_first = true
 # 邮箱名称前缀，不需要后缀可配置为空字符串或者不配置
 PREFIX = "tmp"
 # 用于临时邮箱的所有域名, 支持多个域名
-DOMAINS = ["wujicbc.email" , "168364.xyz"]
+DOMAINS = ["168364.xyz"]
 # 用于生成 jwt 的密钥, jwt 用于给用户登录以及鉴权
 JWT_SECRET = "Sikro321"
 
